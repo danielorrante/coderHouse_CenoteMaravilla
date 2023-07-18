@@ -4,80 +4,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Cenote Maravilla Cancun | Cenote Maravilla</title>
+    <title>Scuba Diving in Cenote Maravilla | Cenote Maravilla</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico.png">
 </head>
 <body>
-    <header class="inlineLayout centerContent">
-        <div>
-            <a href="../index.html"> 
-                <img src="../assets/images/cenote-maravilla-logo.png" alt="Logo" style="text-align: center;">
-            </a>
-        </div>
-        <div>
-            <nav class="navBar">
-                <ul>
-                    <li class="navBar"><a href="../index.html">Home</a></li>
-                    <li class="navBar"><a href="../pages/diving.html">Diving</a></li>
-                    <li class="navBar"><a href="../pages/gallery.html">Gallery</a></li>
-                    <li class="navBar"><a href="../pages/rental.html">Rentals</a></li>
-                    <li class="navBar"><a href="../pages/contact.html">Contact</a></li>
+
+    <!-- Header Bootstrap -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary w-100">
+            <div class="container-fluid">
+            <a class="navbar-brand" a href="../index.html"><img src="../assets/images/cenote-maravilla-logo.png" alt="Logo" style="text-align: center;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link active" href="./diving.html">Diving</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="./gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="./rental.html">Rentals</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <section>
-            <div class="col2Third">
-                <img src="../assets/images/cenote-diving-cancun.jpg" style="height:500px; width: 100%;">
+        <section class="col-md-10 m-auto row align-items-start">
+            <div class="col-lg-8 pt-0">
+                <img src="../assets/images/cenote-diving-cancun.jpg" class="h-75 w-100 mb-3 object-fit-cover">
                 <h1>Scuba Diving in Cenote Maravilla</h1>
                 <p>Go diving with professional equipment up to 20 meters into a cavern connected to the largest underground system in the world. Where you can find "la madre esa" that usually is found 60 meters deep. Free transportation from and to your hotel lobby.</p>
                 <h2>Includes</h2>
                 <p>
-                    <ul>
-                        <li>Roundtrip transportation from your hotel</li>
-                        <li>Diving gear</li>
-                        <li>Two tanks diving</li>
-                        <li>Neoprene wetsuit</li>
+                    <ul class="navbar-nav">
+                        <li><i class="bi bi-check pe-2 text-success"></i>Roundtrip transportation from your hotel</li>
+                        <li><i class="bi bi-check pe-2 text-success"></i>Diving gear</li>
+                        <li><i class="bi bi-check pe-2 text-success"></i>Two tanks diving</li>
+                        <li><i class="bi bi-check pe-2 text-success"></i>Neoprene wetsuit</li>
                     </ul>
                 </p>
                 <h2>Not Included</h2>
+                <p>
+                    <ul class="navbar-nav">
+                        <li><i class="bi bi-x pe-2 text-danger"></i>Diving gear</li>
+                        <li><i class="bi bi-x pe-2 text-danger"></i>Roundtrip transportation from your hotel</li>
+                        <li><i class="bi bi-x pe-2 text-danger"></i>Two tanks diving</li>
+                        <li><i class="bi bi-x pe-2 text-danger"></i>Neoprene wetsuit</li>
+                    </ul>
+                </p>
                 <h2>Requirements</h2>
+                <p>
+                    <ul class="navbar-nav">
+                        <li><i class="bi bi-info pe-2 text-primary"></i>Diving gear</li>
+                        <li><i class="bi bi-info pe-2 text-primary"></i>Roundtrip transportation from your hotel</li>
+                        <li><i class="bi bi-info pe-2 text-primary"></i>Two tanks diving</li>
+                        <li><i class="bi bi-info pe-2 text-primary"></i>Neoprene wetsuit</li>
+                    </ul>
+                </p>
             </div>
-            <div class="col1Third boxProduct boxContent centerContent">
-                <h2>Book Now</h2>
-                <p>209 USD<br/><small>per person</small></p>
-                <p><a class="button" href="#">Book Now</a></p>
+            <div class="col-lg-4 p-3 m-0 sticky-top">
+                <div class="text-center card bg-body-tertiary mt-3 p-5">
+                    <h2 class="pt-3 pb-2">Book Now</h2>
+                    <p class="pt-0 pb-3">Make an appointment in real time.</p>
+                    <p class="h5 pt-3 pb-0">209 USD</p>
+                    <small class="text-body-secondary pt-0 pb-3">per person</small>
+                    <p><a class="btn btn-primary my-2" href="#">Book Now</a></p>
+                </div>
             </div>
         </section>
         <section>            
-            <div class="col2Third">
-                <h2>Frequently asked questions</h2>
-                <h3>Do you pick up from my hotel?</h3>
-                <p>We pick up from any hotel in Cancun, Puerto Morelos, and Costa/Playa Mujeres. If you are staying on an Airbnb we set up a convenient meeting point.</p>
-                <h3>What's the cancellation policy</h3>
-                <h3>Do I need a PADI certification</h3>
+            <div class="col-md-10 m-auto row align-items-start">
+                <div class="col-lg-8 pt-0">
+                    <h2>Frequently asked questions</h2>
+                    <h3>Do you pick up from my hotel?</h3>
+                    <p>We pick up from any hotel in Cancun, Puerto Morelos, and Costa/Playa Mujeres. If you are staying on an Airbnb we set up a convenient meeting point.</p>
+                    <h3>What's the cancellation policy</h3>
+                    <p>Plans have changed? Reschedule or cancel with no cost, just let us know at least 12 hours in advance. Unfortunately, if the tour is canceled after that 12-hour mark, this will be considered a No-Show and no refund will be provided.</p>
+                    <h3>Do I need a PADI certification</h3>
+                    <p>Yes, with the proper cave certification. We also provide the certification. <a href="./contact.html">Contact us</a> for more information.</p>
+                </div>
             </div>
         </section>
 
     </main>
 
-    <footer class="boxedLayout centerContent">
+    <footer class="row text-center mt-5 mb-3">
         <a href="index.html">
             <img src="../assets/images/cenote-maravilla-logo.png" alt="Logo" style="text-align: center;">
         </a>
-        <div>
-            <a target="_blank" href="https://facebook.com/">
-                <img src="../assets/images/fb-icon.png" alt="FB">
-            </a>
-            <a target="_blank" href="https://instagram.com/">
-                <img src="../assets/images/ig-icon.png" alt="IG">
-            </a>
+        <div class="my-3">
+            <a target="_blank" href="https://facebook.com/"><img src="../assets/images/fb-icon.png" alt="FB"></a>
+            <a target="_blank" href="https://instagram.com/"><img src="../assets/images/ig-icon.png" alt="IG"></a>
         </div>
         <p>All rights reserved | Cenote Maravilla 2023</p>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

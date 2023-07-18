@@ -4,86 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Cenote Maravilla Cancun | Cenote Maravilla</title>
+    <title>Contact Cenote Maravilla | Cenote Maravilla</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico.png">
 </head>
 <body>
-    <header class="inlineLayout centerContent">
-        <div>
-            <a href="../index.html"> 
-                <img src="../assets/images/cenote-maravilla-logo.png" alt="Logo" style="text-align: center;">
-            </a>
-        </div>
-        <div>
-            <nav class="navBar">
-                <ul>
-                    <li class="navBar"><a href="../index.html">Home</a></li>
-                    <li class="navBar"><a href="../pages/diving.html">Diving</a></li>
-                    <li class="navBar"><a href="../pages/gallery.html">Gallery</a></li>
-                    <li class="navBar"><a href="../pages/rental.html">Rentals</a></li>
-                    <li class="navBar"><a href="../pages/contact.html">Contact</a></li>
+
+    <!-- Header Bootstrap -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary w-100">
+            <div class="container-fluid">
+            <a class="navbar-brand" a href="../index.html"><img src="../assets/images/cenote-maravilla-logo.png" alt="Logo" style="text-align: center;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="./diving.html">Diving</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="./gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link active" href="./rental.html">Rentals</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <div class="boxedLayout centerContent">
-            <h1>Rent Cenote Maravilla for your Events</h1>
-            <p>It can be used for so many things</p>
+        <div class="container col-lg-4 m-auto py-5 text-center">
+            <h1>Rent Cenote Maravilla for your events</h1>
+            <p>Cenote Maravilla is fully equipped and can be used for any type event.</p>
         </div>
-            <div class="col1Third">
-                <img src="../assets/images/mayan-rituals.jpg">
-                <h2>Mayan rituals</h2>
-                <p>
-                    <ul>
-                        <li>Baptisms</li>
-                        <li>Weddings</li>
-                        <li>Ayahuasca</li>
-                    </ul>
-                </p>
-            </div>
-            <div class="col1Third">
-                <img src="../assets/images/mayan-parties.jpg">
-                <h2>Parties</h2>
-                <p>There's a wooden platform right over the cenote where the DJ can set up and bring the party.
-                </p>
-            </div>
-            <div class="col1Third">
-                <img src="../assets/images/mexican-kitchen.jpg">
-                <p>Restaurant & Kitchen Available. Whether you hire our cuisine services you can also rent it for private use.</p>
+            <div class="col-lg-10 m-auto row align-items-start">
+                <div class="col-lg-4 m-0">
+                    <img class="pb-3" src="../assets/images/mayan-rituals.jpg">
+                    <h2>Mayan rituals</h2>
+                    <p>
+                        <ul>
+                            <li>Baptisms</li>
+                            <li>Weddings</li>
+                            <li>Ayahuasca</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-lg-4 m-0">
+                    <img class="pb-3" src="../assets/images/mayan-parties.jpg">
+                    <h2>Parties</h2>
+                    <p>There's a wooden platform right over the cenote where the DJ can set up and bring the party.
+                    </p>
+                </div>
+                <div class="col-lg-4 m-0">
+                    <img class="pb-3" src="../assets/images/mexican-kitchen.jpg">
+                    <h2>Kitchen & Restaurant</h2>
+                    <p>Restaurant & Kitchen Available. Whether you hire our cuisine services you can also rent it for private use.</p>
+                </div>
             </div>
         
-        <div>
-            <div class="halfLayout">
-                <img src="../assets/images/cenote-maravilla-4.jpg" style="width:100%; height:500px;object-fit: cover;">
+        <div class="col-lg-9 row my-5 mx-auto">
+            <div class="col-lg-6">
+                <img src="../assets/images/cenote-maravilla-4.jpg" class="object-fit-cover">
             </div>
-            <div class="halfLayout">
+            <div class="col-lg-6">
                 <h2>Rentals starting from $500</h2>
                 <p>The cenote is fully equipped with toilets, showers, and even a camping area for several days events.
                     It as simple as contacting us to request a quote!
                 </p>
                 <p>
-                    <a class="button" href="../pages/contact.html">Contact Us</a>
+                    <a class="btn btn-primary" href="../pages/contact.html">Contact Us</a>
                 </p>
             </div>
         </div>
     </main>
-    <footer class="boxedLayout centerContent">
+    <footer class="row text-center mt-5 mb-3">
         <a href="index.html">
             <img src="../assets/images/cenote-maravilla-logo.png" alt="Logo" style="text-align: center;">
         </a>
-        <div>
-            <a target="_blank" href="https://facebook.com/">
-                <img src="../assets/images/fb-icon.png" alt="FB">
-            </a>
-            <a target="_blank" href="https://instagram.com/">
-                <img src="../assets/images/ig-icon.png" alt="IG">
-            </a>
+        <div class="my-3">
+            <a target="_blank" href="https://facebook.com/"><img src="../assets/images/fb-icon.png" alt="FB"></a>
+            <a target="_blank" href="https://instagram.com/"><img src="../assets/images/ig-icon.png" alt="IG"></a>
         </div>
         <p>All rights reserved | Cenote Maravilla 2023</p>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
