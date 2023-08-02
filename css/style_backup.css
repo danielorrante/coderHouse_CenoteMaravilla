@@ -1,0 +1,29 @@
+/* Los estilos de mi sitio web */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
+* {
+    font-family: Poppins;
+    font-size: 1rem;
+    max-width: 100% !important;
+    margin:auto 0 !important;
+}
+
+p, div, h1, h2, h3, h4, a {
+    padding: 10px 0px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.banner {
+    height: 500px !important;
+    width: 100%;
+    object-fit: cover;
+}

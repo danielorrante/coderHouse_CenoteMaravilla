@@ -1,0 +1,23 @@
+/* Variables */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
+$general_font: Poppins;
+$general_fontSize: 1rem;
+$general_headingWeight: 800;
+$full_width: 100%;
+
+/*Maps*/
+
+$headingsSize: ( 
+    "h1": 1.5 rem,
+    "h2": 1.4 rem,
+    "h3": 1.3 rem,
+    "h4": 1.2 rem,
+    "h5": 1.1 rem,
+    "text": 1 rem
+);
+
+$colors: (
+    "primary": #0d6efd,
+    "secondary": #0b5ed7
+)
